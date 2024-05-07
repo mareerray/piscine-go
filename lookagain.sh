@@ -1,2 +1,2 @@
 #! /bin/bash
-find . -type f -name "file*.sh" | tr -d '.sh' | tr -d '/' | sort -r 
+find . -name "file*.sh" | tr .h/s 0000 | sed 's/0/ /g' | tr -d ' '
