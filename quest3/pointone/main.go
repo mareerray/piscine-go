@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-
 	"piscine/quest3/pointone/piscine"
 )
 
