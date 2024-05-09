@@ -1,0 +1,1 @@
+echo "Testing Fetch & Merge"
