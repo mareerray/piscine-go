@@ -3,7 +3,6 @@ package piscine
 import "github.com/01-edu/z01"
 
 func PrintComb() {
-
 	RuneMap := map[int]rune{
 		1: '1',
 		0: '0',
@@ -44,7 +43,6 @@ func PrintComb() {
 					z01.PrintRune(',')
 					z01.PrintRune(' ')
 				}
-
 			}
 		}
 	}
