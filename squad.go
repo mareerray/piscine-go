@@ -5,8 +5,8 @@ import "fmt"
 // function QuadA to QuadE
 // ////////////////////////
 func QuadA(x, y int) {
-	ln := y   //how many lines we will print
-	char := x //how many characters we will print
+	ln := y   // how many lines we will print
+	char := x // how many characters we will print
 
 	for i := 0; i < ln; i++ {
 		if i == 0 {
@@ -18,12 +18,11 @@ func QuadA(x, y int) {
 		}
 		fmt.Print(("\n"))
 	}
-
 }
 
 func QuadB(x, y int) {
-	ln := y   //how many lines we will print
-	char := x //how many characters we will print
+	ln := y   // how many lines we will print
+	char := x // how many characters we will print
 
 	for i := 0; i < ln; i++ {
 		if i == 0 {
@@ -35,12 +34,11 @@ func QuadB(x, y int) {
 		}
 		fmt.Print(("\n"))
 	}
-
 }
 
 func QuadC(x, y int) {
-	ln := y   //how many lines we will print
-	char := x //how many characters we will print
+	ln := y   // how many lines we will print
+	char := x // how many characters we will print
 
 	for i := 0; i < ln; i++ {
 		if i == 0 {
@@ -52,12 +50,11 @@ func QuadC(x, y int) {
 		}
 		fmt.Print(("\n"))
 	}
-
 }
 
 func QuadD(x, y int) {
-	ln := y   //how many lines we will print
-	char := x //how many characters we will print
+	ln := y   // how many lines we will print
+	char := x // how many characters we will print
 
 	for i := 0; i < ln; i++ {
 		if i == 0 {
@@ -69,12 +66,11 @@ func QuadD(x, y int) {
 		}
 		fmt.Print(("\n"))
 	}
-
 }
 
 func QuadE(x, y int) {
-	ln := y   //how many lines we will print
-	char := x //how many characters we will print
+	ln := y   // how many lines we will print
+	char := x // how many characters we will print
 
 	for i := 0; i < ln; i++ {
 		if i == 0 {
@@ -86,7 +82,6 @@ func QuadE(x, y int) {
 		}
 		fmt.Print(("\n"))
 	}
-
 }
 
 // we execute these fuctions when we call the QuadA, B, C, D, & E

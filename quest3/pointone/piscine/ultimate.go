@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+
 	"piscine"
 )
 
@@ -12,6 +13,7 @@ func main() {
 	piscine.UltimatePointOne(&n)
 	fmt.Println(a)
 }
+
 // And its output :
 
 // $ go run .
