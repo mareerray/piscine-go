@@ -6,10 +6,10 @@ func IterativeFactorial(nb int) int {
 		return 0
 	}
 	var result int
-	result = 0
+	result = 1
 
-	for i := 0; i < nb+1; i++ {
-		result = result + i
+	for i := 1; i <= nb; i++ {
+		result = result * i
 	}
 	return result
 
