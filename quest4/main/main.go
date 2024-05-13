@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	piscine "piscine/quest4"
+	"piscine"
 )
 
 func main() {
-	arg := -4
+	arg := 24
 	fmt.Println(piscine.IterativeFactorial(arg))
 }
