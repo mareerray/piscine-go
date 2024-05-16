@@ -1,16 +1,14 @@
 package piscine
 
 func IsAlpha(s string) bool {
+	if len(s) == 0 {
+		return false
+	}
+
 	for _, char := range s {
-		if (char >= 'a' && char <= 'z') && (char >= 'A' && char <= 'Z') && (char >= '0' && char <= '9') {
-			return true
-		} else if char == ' ' {
+		if !(char >= 'a' && char <= 'z') && !(char >= 'A' && char <= 'Z') && !(char >= '0' && char <= '9') {
 			return false
 		}
 	}
-	return len(s) > 0
+	return true
 }
-
-/* function that returns true if the string passed as the parameter
-only contains alphanumerical characters
-or is empty, otherwise, and returns false.*/
