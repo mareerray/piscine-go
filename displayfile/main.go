@@ -21,7 +21,6 @@ func main() {
 	if err != nil {
 		fmt.Println("Failed to read file", err)
 	}
-
 	// Convert the byte slice to a string and print it
-	fmt.Println(string(content))
+	fmt.Print(string(content))
 }
