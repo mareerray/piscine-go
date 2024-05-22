@@ -22,9 +22,6 @@ func PrintComb2() {
 			z01.PrintRune(' ')
 			z01.PrintRune(RuneMap[b/10])
 			z01.PrintRune(RuneMap[b%10])
-			z01.PrintRune(',')
-			z01.PrintRune(' ')
-
 			if b == 99 && a == 98 {
 				z01.PrintRune('\n')
 				break
