@@ -1,15 +1,14 @@
 package piscine
 
 func Abort(a, b, c, d, e int) int {
-	numbers := []int{a, b, c, d, e} // initialize a slice to to store the input integers.
-	n := len(numbers)               // Calculates the length of the numbers slice and stores it in the variable n.
-
-	for i := 0; i < n-1; i++ { // bubble sort
-		for j := i + 1; j < n-1; j++ {
-			if numbers[j] > numbers[j+1] {
-				numbers[j], numbers[j+1] = numbers[j+1], numbers[j]
+	sortedSet := []int{a, b, c, d, e}
+	for i := 0; i < len(sortedSet)-1; i++ {
+		for j := i + 1; j < len(sortedSet); j++ {
+			if sortedSet[i] > sortedSet[j] {
+				sortedSet[i], sortedSet[j] = sortedSet[j], sortedSet[i]
 			}
 		}
 	}
-	return (numbers[n/2])
+	return sortedSet[2]
 }
+// added from gui browser
