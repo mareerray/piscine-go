@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+const AIRCRAFT1 string = "1"
+
 type Pilot struct {
 	Name     string
 	Life     float64
@@ -19,5 +21,3 @@ func main() {
 
 	fmt.Println(donnie)
 }
-
-const AIRCRAFT1 string = "1"
