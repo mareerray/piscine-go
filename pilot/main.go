@@ -6,7 +6,7 @@ type Pilot struct {
 	Name     string
 	Life     float64
 	Age      int
-	Aircraft int
+	Aircraft string
 }
 
 func main() {
@@ -20,4 +20,4 @@ func main() {
 	fmt.Println(donnie)
 }
 
-const AIRCRAFT1 = 1
+const AIRCRAFT1 string = "1"
