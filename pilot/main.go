@@ -10,7 +10,6 @@ type Pilot struct {
 }
 
 func main() {
-
 	var donnie Pilot
 	donnie.Name = "Donnie"
 	donnie.Life = 100.0
