@@ -9,7 +9,7 @@ func main() {
 	fmt.Println(piscine.ActiveBits(7))
 }
 
-//And its output :
+// And its output :
 
 //$ go run .
 //3
